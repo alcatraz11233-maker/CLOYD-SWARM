@@ -23,3 +23,7 @@ CLOYD-SWARM adalah sistem AI dual-engine yang menggabungkan kecepatan **C++ Nati
    ```bash
    git clone [https://github.com/alcatraz11233-maker/CLOYD-SWARM.git](https://github.com/alcatraz11233-maker/CLOYD-SWARM.git)
    cd CLOYD-SWARM
+   
+   pip install ddgs trafilatura
+
+   g++ -O3 cloyd.cpp -o cloyd_engine -lcurl
